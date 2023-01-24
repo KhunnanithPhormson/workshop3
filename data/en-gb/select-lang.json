@@ -1,0 +1,26 @@
+[
+  {
+    "key": "select-lang",
+    "data": {
+      "value": "Select your language",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "english",
+    "data": {
+      "value": "English",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "enter",
+    "data": {
+      "value": "Enter",
+      "validated": false,
+      "comment": ""
+    }
+  }
+]

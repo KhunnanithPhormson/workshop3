@@ -1,0 +1,16 @@
+.mute {
+  display: none;
+  position: fixed;
+
+  bottom: rem(100);
+  right: rem(100);
+  width: rem(50);
+  height: rem(50);
+
+  @media screen and (min-width: 768px), (orientation: landscape) {
+    width: rem(50);
+    height: rem(50);
+    bottom: rem(100);
+    right: rem(100);
+  }
+}

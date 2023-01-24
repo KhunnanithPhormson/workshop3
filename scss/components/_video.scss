@@ -1,0 +1,105 @@
+video,
+.video {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: $main-color;
+  object-fit: contain;
+
+  @include for-mobile {
+    object-fit: contain;
+  }
+}
+
+.video-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  @include flex-center;
+  z-index: 1;
+
+  .video {
+    // position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0;
+    z-index: 0;
+    background-color: #000;
+
+    @media only screen and (min-width: $mobile-land) and (orientation: landscape) {
+      width: rem(1125);
+      // height: rem(120);
+    }
+  }
+
+  .image,
+  .icon-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+  }
+
+  .icon-play {
+    width: rem(250);
+    height: rem(250);
+    cursor: pointer;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    @media only screen and (min-width: $mobile-land) and (orientation: landscape) {
+      width: rem(120);
+      height: rem(120);
+    }
+  }
+}
+.video__skip,
+.video__skip-part1,
+.video__skip1,
+.video__skip2,
+.video__skip3 {
+  display: none;
+  color: #fff;
+  position: absolute;
+  bottom: 7rem;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.back_skip {
+  display: none;
+  color: #fff;
+  position: absolute;
+  bottom: 7rem;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.video-overlay {
+  @include absolute-fill-area;
+  display: none;
+  z-index: 10;
+
+  .video {
+    @include fill-area;
+    @include flex-center;
+
+    background-color: black;
+
+    &__content {
+      width: rem(1280);
+      height: rem(720);
+
+      @include for-mobile {
+        width: 100%;
+        height: rem(607.5);
+      }
+    }
+  }
+}

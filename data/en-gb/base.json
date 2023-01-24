@@ -1,0 +1,138 @@
+[
+  {
+    "key": "text-validate",
+    "data": {
+      "value": "VALIDATE",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-close",
+    "data": {
+      "value": "CLOSE",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-next",
+    "data": {
+      "value": "NEXT",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-start",
+    "data": {
+      "value": "START",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-welldone",
+    "data": {
+      "value": "WELL DONE!",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-not-exactly",
+    "data": {
+      "value": "NOT EXACTLY…",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-almost",
+    "data": {
+      "value": "ALMOST...",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-enter",
+    "data": {
+      "value": "ENTER",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-replay",
+    "data": {
+      "value": "REPLAY",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-discover",
+    "data": {
+      "value": "DISCOVER",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-rediscover",
+    "data": {
+      "value": "REDISCOVER",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-bravo",
+    "data": {
+      "value": "BRAVO!",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-play",
+    "data": {
+      "value": "PLAY",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-skip",
+    "data": {
+      "value": "SKIP THE MOVIE",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-exactly",
+    "data": {
+      "value": "EXACTLY!",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "correct-is",
+    "data": {
+      "value": "THE CORRECT ANSWER IS...",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "try-again",
+    "data": {
+      "value": "TRY AGAIN!",
+      "validated": false,
+      "comment": ""
+    }
+  }
+]

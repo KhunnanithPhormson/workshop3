@@ -1,0 +1,74 @@
+[
+  {
+    "key": "title-menu",
+    "data": {
+      "value": "Menu",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "text-the",
+    "data": {
+      "value": "The",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "menu0",
+    "data": {
+      "value": "ARMANI PRIVÉ IDENTITY",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "menu0-1",
+    "data": {
+      "value": "THE EXPRESSION OF HAUTE COUTURE DREAM",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "menu1",
+    "data": {
+      "value": "LES EAUX",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "menu2",
+    "data": {
+      "value": "LA COLLECTION",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "menu3",
+    "data": {
+      "value": "LES TERRES PRÉCIEUSES",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "menu4",
+    "data": {
+      "value": "LES MILLE ET UNE NUITS",
+      "validated": true,
+      "comment": ""
+    }
+  },
+  {
+    "key": "menu5",
+    "data": {
+      "value": "TEST YOUR KNOWLEDGE",
+      "validated": true,
+      "comment": ""
+    }
+  }
+]

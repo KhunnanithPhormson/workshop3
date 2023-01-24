@@ -1,0 +1,43 @@
+$btnWidthD: rem(276);
+$btnWidthM: rem(800);
+$btnHeightD: rem(72);
+$btnHeightM: rem(145);
+$color: $black;
+
+.btn {
+  width: 100%;
+  max-width: $btnWidthD;
+
+  margin: 0 auto;
+
+  @include for-mobile {
+    max-width: $btnWidthM;
+  }
+
+  &__inner {
+    @include flex-center;
+
+    cursor: pointer;
+    position: relative;
+    min-height: $btnHeightD;
+    padding: rem(10) rem(25) rem(5);
+    color: $color;
+    font-size: rem(24);
+    text-transform: uppercase;
+    font-family: $didot-font;
+    line-height: 1.2;
+    background-image: url("../images/general/bg-btn.png");
+    background-size: 100% 100%;
+
+    @include for-mobile {
+      min-height: $btnHeightM;
+      font-size: rem(60);
+    }
+  }
+
+  &:hover {
+    .btn__inner {
+      opacity: 0.85;
+    }
+  }
+}

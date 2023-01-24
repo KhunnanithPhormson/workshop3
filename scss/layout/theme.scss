@@ -1,0 +1,40 @@
+#main-container {
+  &.theme-black {
+    #header,
+    .nav {
+      &__title {
+        color: $black;
+      }
+    }
+
+    .page {
+      color: $black;
+    }
+  }
+
+  &.theme-white {
+    #header,
+    .nav {
+      &__title {
+        color: $white;
+      }
+    }
+
+    .page {
+      color: $white;
+    }
+  }
+
+  &.theme-logo {
+    #header,
+    .nav {
+      &__title {
+        display: none;
+      }
+
+      &__logo {
+        display: block;
+      }
+    }
+  }
+}

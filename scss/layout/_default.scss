@@ -1,0 +1,33 @@
+/*IE9*/
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.m-style {
+  display: none;
+
+  @include for-mobile {
+    display: block;
+  }
+}
+
+.d-style {
+  display: block;
+
+  @include for-mobile {
+    display: none;
+  }
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}

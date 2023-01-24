@@ -1,0 +1,13 @@
+input {
+  width: rem(384);
+  height: rem(60);
+  text-align: center;
+  font-weight: $book;
+  font-size: rem(23);
+  letter-spacing: 0.05em;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.57);
+  color: $white;
+}

@@ -1,0 +1,67 @@
+.arrow-d {
+  display: block;
+
+  @include for-mobile {
+    display: none;
+  }
+
+  .arrow {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: rem(25);
+    height: rem(36);
+    z-index: $arrow-index;
+    padding: 13% rem(72);
+    box-sizing: content-box;
+    transition: opacity 0.2s;
+
+    &__inner {
+      @include fill-area;
+    }
+
+    &--prev {
+      left: rem(0);
+      padding-left: rem(34);
+    }
+
+    &--next {
+      right: rem(0);
+      padding-right: rem(34);
+    }
+
+    &.locked {
+      opacity: 0.5;
+      cursor: default;
+    }
+  }
+}
+
+.arrow-down,
+.arrow-down-popup {
+  position: absolute;
+  @include flex-center;
+  background-color: $white;
+  display: none;
+
+  @media screen and (max-width: $mobile) {
+    cursor: pointer;
+
+    width: rem(100);
+    height: rem(100);
+    z-index: 10;
+    position: absolute;
+    bottom: rem(150);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    box-shadow: rem(5) rem(5) rem(15) rgba(0, 0, 0, 0.5);
+
+    img {
+      margin-top: rem(5);
+      margin-left: rem(2.5);
+    }
+  }
+}

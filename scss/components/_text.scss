@@ -1,0 +1,56 @@
+.text-title {
+  font-size: rem(60);
+  font-family: $didot-font;
+  // line-height: rem(45);
+
+  @include for-mobile {
+    font-size: rem(90);
+    // line-height: rem(52);
+  }
+}
+
+.text-desc {
+  font-size: rem(30);
+  font-weight: $light;
+
+  @include for-mobile {
+    font-size: rem(42);
+  }
+}
+
+.result-title {
+  font-size: rem(36);
+  text-transform: uppercase;
+
+  @include for-mobile {
+    font-size: rem(60);
+  }
+}
+
+.ins {
+  position: relative;
+  opacity: 0;
+  color: $ins-color;
+  font-style: italic;
+  font-size: rem(30);
+
+  @include for-mobile {
+    font-size: rem(42);
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: $bold;
+}
+
+.didot-font {
+  font-family: $didot-font;
+}

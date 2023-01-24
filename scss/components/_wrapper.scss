@@ -1,0 +1,16 @@
+.content-inner {
+  height: 100%;
+  padding-left: rem(80);
+  padding-right: rem(80);
+
+  @include for-mobile {
+    height: auto;
+    // padding: 0 rem(46);
+  }
+}
+
+.wrapper {
+  @include for-mobile {
+    padding: 0 rem(94);
+  }
+}

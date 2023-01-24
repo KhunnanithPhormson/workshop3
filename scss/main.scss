@@ -1,0 +1,39 @@
+// util
+@import 'utilities/variables';
+@import 'utilities/mixins';
+@import 'utilities/breakpoints';
+
+// base
+@import 'base/typography';
+
+// vendors
+@import 'vendors/select-customizer';
+@import 'vendors/swiper';
+
+// layout
+@import 'layout/setting';
+@import 'layout/background';
+@import 'layout/content';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/menu';
+@import 'layout/popup';
+@import 'layout/default';
+@import 'layout/theme';
+
+// components
+@import 'components/arrow';
+@import 'components/animation';
+@import 'components/button';
+@import 'components/input';
+@import 'components/loading';
+@import 'components/scrollbar';
+@import 'components/text';
+@import 'components/video';
+@import 'components/wrapper';
+@import 'components/image';
+@import 'components/mute';
+
+// pages
+@import 'pages/select-lang';
+@import 'pages/part2-game3';

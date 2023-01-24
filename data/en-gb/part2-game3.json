@@ -1,0 +1,90 @@
+[
+  {
+    "key": "page-name",
+    "data": {
+      "value": "LES EAUX",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "page-name-2",
+    "data": {
+      "value": "THÉ YULONG",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "part2-game3-title",
+    "data": {
+      "value": "USE TO MOST APPROPRIATE WORDS TO MAKE YOUR CLIENT TRAVEL WITH THÉ YULONG.",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "part2-game3-ins",
+    "data": {
+      "value": "Associate the keywords to each ingredient.",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "black-tea",
+    "data": {
+      "value": "BLACK TEA",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "white-tea",
+    "data": {
+      "value": "GREEN TEA",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "drag-drop-here",
+    "data": {
+      "value": "Drag & Drop here",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "key-1",
+    "data": {
+      "value": "POWERFUL",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "key-2",
+    "data": {
+      "value": "SUBTLE",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "key-3",
+    "data": {
+      "value": "VIVACIOUS",
+      "validated": false,
+      "comment": ""
+    }
+  },
+  {
+    "key": "key-4",
+    "data": {
+      "value": "SMOKED",
+      "validated": false,
+      "comment": ""
+    }
+  }
+]

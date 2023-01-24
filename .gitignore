@@ -1,0 +1,28 @@
+# ignore folder
+node_modules
+design
+build
+.dist
+dist
+
+# ignore file
+*scripts.js
+*script.js
+*library.js
+*style.css
+*style.css.map
+yarn.lock
+package-lock.json
+.DS_Store
+*main.css
+*main.css.map
+.env
+
+# sound
+video
+videos
+sound
+sounds
+
+# Log files
+*.log

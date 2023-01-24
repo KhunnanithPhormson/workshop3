@@ -1,0 +1,75 @@
+$footerHeight: rem(120);
+
+#footer,
+.progress-bar {
+  pointer-events: none;
+  width: 100%;
+  position: relative;
+  @include flex-center;
+  display: none;
+  height: #{$footerHeight};
+  justify-content: space-between;
+  overflow: hidden;
+  z-index: $nav-index;
+  // background: $white;
+  @include for-mobile {
+    &.absolute-footer {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  @include for-desktop {
+    display: none !important;
+  }
+
+  .progress {
+    &__bar {
+      width: 100%;
+      height: 100%;
+      @include flex-center;
+
+      .bar-inside {
+        width: rem(110);
+        height: 1px;
+        background: $grey;
+        margin: 0 rem(5);
+        border-radius: rem(15);
+
+        &.active {
+          background: $bar-color;
+          height: rem(3);
+        }
+      }
+    }
+  }
+
+  .arrow {
+    &--next,
+    &--prev {
+      pointer-events: auto;
+      height: 100%;
+      cursor: pointer;
+      position: relative;
+      width: rem(35);
+      @include flex-center;
+      left: auto;
+      right: auto;
+      padding: 0 rem(40);
+      box-sizing: content-box;
+
+      &.locked {
+        // opacity: 0.5;
+        opacity: 0;
+      }
+    }
+
+    &__inner {
+      @include flex-center;
+    }
+  }
+
+  .white {
+    display: none;
+  }
+}

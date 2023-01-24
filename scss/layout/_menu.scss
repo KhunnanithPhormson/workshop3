@@ -1,0 +1,150 @@
+.menu-overlay {
+  @include absolute-fill-area;
+  font-family: $didot-font;
+  background-image: url("../images/general/bg-menu-d.jpg");
+  background-size: cover;
+  background-position: center;
+  @include for-mobile {
+    background-image: url("../images/general/bg-menu.jpg");
+    background-position: center top;
+  }
+
+  z-index: $menu-index;
+  display: none;
+  z-index: 1000;
+  .menu {
+    z-index: 1000;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    @include for-mobile {
+      width: 100%;
+      // border: rem(20) solid $black;
+    }
+
+    .group-title {
+      @include flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: rem(60) 0 rem(102);
+
+      .text-title {
+        color: $black;
+        font-size: rem(36);
+        font-family: $didot-font;
+        @include for-mobile {
+          font-size: rem(48);
+        }
+
+        &.italic {
+          font-style: italic;
+        }
+
+        &.uppercase {
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .menu_list {
+      &::-webkit-scrollbar-thumb {
+        background: $black;
+        border-radius: 0;
+      }
+
+      ul {
+        margin: 0;
+        padding: 0 rem(10);
+
+        @include for-mobile {
+          padding: 0;
+        }
+
+        li {
+          position: relative;
+          color: $black;
+          text-align: center;
+          list-style: none;
+          font-size: rem(36);
+          padding: rem(12) rem(232) rem(12);
+          cursor: pointer;
+          text-transform: uppercase;
+          margin-bottom: rem(48);
+
+          @include for-mobile {
+            font-size: rem(72);
+            padding: rem(36) rem(220);
+            margin-bottom: 0;
+          }
+
+          .title {
+            font-style: normal;
+            display: flex;
+            flex-direction: column;
+
+            span {
+              &:nth-child(2) {
+                font-size: rem(24);
+                @include for-mobile {
+                  font-size: rem(48);
+                  margin-top: rem(10);
+                }
+              }
+            }
+          }
+
+          &.locked {
+            pointer-events: none;
+            font-weight: $light;
+            opacity: 0.8;
+            cursor: default;
+            color: $grey-2;
+
+            .title {
+              font-weight: $light;
+            }
+
+            &:after {
+              background-color: $grey;
+            }
+          }
+
+          &.active {
+            color: $main-color;
+
+            &:after {
+              background-color: $main-color;
+            }
+
+            .title {
+              font-weight: $bold;
+            }
+          }
+
+          &:last-child {
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .close {
+      position: absolute;
+      top: rem(10);
+      right: rem(10);
+      width: rem(65);
+      padding: rem(15);
+      cursor: pointer;
+      z-index: 2;
+
+      @include for-mobile {
+        width: rem(155);
+        padding: rem(50);
+      }
+    }
+  }
+}

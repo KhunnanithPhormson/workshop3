@@ -1,0 +1,44 @@
+#select-lang {
+  .scroll-inner {
+    .content-inner {
+      .group-side {
+        .side {
+          width: 50%;
+          .logo {
+            margin: 0 auto;
+            width: rem(800);
+            height: auto;
+          }
+          .main-img {
+            width: rem(1072);
+            height: rem(1030);
+            padding: rem(30);
+          }
+
+          .right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+              width: rem(560);
+              height: auto;
+            }
+
+            .input-zone {
+              button {
+                width: 100%;
+                max-width: rem(400);
+                margin: 0 auto;
+                margin-top: 3rem;
+                @include for-mobile {
+                  margin-bottom: rem(120);
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

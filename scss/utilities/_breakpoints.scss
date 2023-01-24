@@ -1,0 +1,30 @@
+/*  ==================================================
+    breakpoint for nivac
+
+                  0px                                    1920px +
+    (0 - 767)     <----------- mobile
+    (768 - 1023)              <----------> tablet
+    (768+)                    -------------------------> desktop
+================================================== */
+
+// for mobile (0 - 767)
+@mixin for-mobile {
+  @media screen and (max-width: 768px), (orientation: portrait) {
+    @content;
+  }
+}
+
+// for desktop (768+)
+@mixin for-desktop {
+  @media screen and (min-width: 768px) and (orientation: landscape) {
+    // (min-width: 821px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+// // alternative for tablet (768 - 1024) bearly use
+@mixin for-tablet {
+  @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    @content;
+  }
+}

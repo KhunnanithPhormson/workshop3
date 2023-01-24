@@ -1,0 +1,495 @@
+body {
+  margin: 0 auto;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+
+  &.select-lang,
+  &.welcome-page {
+    background-image: url("../images/general/white.jpg");
+  }
+  &.part2-game3,
+  &.part2-game3-result,
+  &.part2-game5,
+  &.part2-game5-result,
+  &.main-page {
+    background-image: url("../images/pages/main-page/BG.jpg");
+  }
+
+  &.part1-content1 {
+    background-color: #151515;
+  }
+
+  &.part2-game-result,
+  &.part3-game-result,
+  &.part4-game-result,
+  &.part5-game-result {
+    background-image: url("../images/pages/part2-game-result/bgg.jpg");
+    @include for-mobile {
+      background-image: url("../images/pages/part2-game-result/bg-m.jpg");
+    }
+  }
+
+  &.part6-game1,
+  &.part6-game2,
+  &.part6-game3,
+  &.part6-game4,
+  &.part6-game5,
+  &.part6-game6,
+  &.part6-game6,
+  &.part6-game7,
+  &.part6-game8 {
+    background-image: url("../images/pages/part6-game/bg.jpg");
+  }
+
+  &.part2-content4 {
+    background-color: #ebebe3;
+  }
+
+  &.part2-content10 {
+    background-color: #a7c7d6;
+  }
+
+  &.part2-game2,
+  &.part2-game2-result {
+    background-image: url("../images/pages/part2-game2/bg.jpg");
+  }
+
+  &.part4-content4 {
+    background-image: url("../images/general/red.jpg");
+  }
+
+  &.part5-content6,
+  &.part5-game4,
+  &.part5-game4-result {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.5)),
+      url("../images/pages/part5-content6/bg.jpg");
+  }
+
+  &.part5-content3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.5)),
+      url("../images/pages/part5-content3/bg.jpg");
+  }
+
+  &.part2-content1,
+  &.part3-content1,
+  &.part4-content1,
+  &.part5-content1,
+  &.part2-content2,
+  &.part3-content2,
+  &.part4-content2,
+  &.part5-content2,
+  &.part2-game1,
+  &.part3-game1,
+  &.part4-game1,
+  &.part5-game1 {
+    background-image: url("../images/pages/main-page/BG.jpg");
+  }
+
+  &.part4-game2,
+  &.part4-game2-result {
+    @include bg-cov("../images/pages/part4-game2/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part4-game2/bg.jpg");
+    }
+  }
+
+  &.part4-game4,
+  &.part4-game4-result {
+    @include bg-cov("../images/pages/part4-game4/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part4-game4/bg.jpg");
+    }
+  }
+
+  &.part6-game1-result,
+  &.part2-content4 {
+    background-color: #ebebe3;
+  }
+  &.part6-game2-result {
+    @include bg-cov("../images/pages/part6-game/bg10.jpg");
+  }
+  &.part6-game3-result,
+  &.part4-content4 {
+    @include bg-cov("../images/pages/part4-content2/Red.jpg");
+  }
+  &.part6-game4-result,
+  &.part2-content10 {
+    background-color: #a7c7d6;
+  }
+  &.part6-game5-result,
+  &.part3-content4 {
+    background-color: #000000;
+  }
+  &.part6-game6-result {
+    @include bg-cov("../images/pages/part4-content2/Green.jpg");
+  }
+  &.part6-game7-result {
+    @include bg-cov("../images/pages/part6-game/bg10.jpg");
+  }
+  &.part6-game8-result {
+    background-color: #f5dee4;
+  }
+}
+#main-container {
+  background-size: cover;
+  background-position: top;
+  transition: background 0.3s;
+  &.part2-game3,
+  &.part2-game3-result {
+    @include bg-cov("../images/pages/part2-game3/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-game3/bg-m.jpg");
+    }
+    // max-width: rem(1920);
+    // margin: 0 auto;
+  }
+
+  &.part2-game5,
+  &.part2-game5-result {
+    @include bg-cov("../images/pages/part2-game5/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-game5/bg-m.jpg");
+    }
+    // max-width: rem(1920);
+    // margin: 0 auto;
+  }
+
+  &.part1-content1 {
+    // @include bg-cov("../images/pages/part1-content1/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part1-content1/bg-m.jpg");
+    }
+  }
+
+  &.part1-content2 {
+    @include bg-cov("../images/pages/part1-content2/bg.jpg");
+  }
+
+  &.part2-content1 {
+    @include bg-cov("../images/pages/part2-content1/d-bg.png");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-content1/m-bg.png");
+    }
+    @include for-desktop {
+      max-width: rem(1920);
+      margin: 0 auto;
+    }
+  }
+  &.part2-content7 {
+    background-color: #f6e4e8;
+  }
+  &.part2-game1 {
+    @include bg-cov("../images/pages/part2-game1/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-game1/bg.jpg");
+    }
+    @include for-desktop {
+      max-width: rem(1920);
+      margin: 0 auto;
+    }
+  }
+
+  &.part2-video1 {
+    @include bg-cov("../images/gif/Home_LES-EAUX.gif");
+    @include for-mobile {
+      @include bg-cov("../images/gif/Home_LES-EAUX.gif");
+    }
+  }
+
+  &.part2-content3 {
+    @include bg-cov("../images/pages/part2-content3/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-content3/bg-m.jpg");
+    }
+  }
+
+  &.part2-content4 {
+    @include bg-cov("../images/pages/part2-content4/bg.jpg");
+    @include for-mobile {
+      background-image: unset;
+    }
+  }
+
+  &.part2-content6 {
+    @include bg-cov("../images/pages/part2-content6/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-content6/bg-m.jpg");
+    }
+  }
+
+  &.part2-content9 {
+    @include bg-cov("../images/pages/part2-content9/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-content9/bg-m.jpg");
+    }
+  }
+
+  &.part2-game4,
+  &.part2-game4-result {
+    @include bg-cov("../images/pages/part2-game4/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-game4/bg.jpg");
+    }
+  }
+
+  &.part2-game6,
+  &.part2-game6-result {
+    @include bg-cov("../images/pages/part2-game6/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-game6/bg.jpg");
+    }
+  }
+
+  &.part2-game7,
+  &.part2-game7-result {
+    @include bg-cov("../images/pages/part2-game7/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part2-game7/bg.jpg");
+    }
+  }
+
+  &.part2-content10 {
+    @include for-desktop {
+      @include bg-cov("../images/pages/part2-content10/bg.jpg");
+    }
+  }
+
+  &.part3-game1 {
+    @include bg-cov("../images/pages/part3-game1/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part3-game1/bg.jpg");
+    }
+    @include for-desktop {
+      max-width: rem(1920);
+      margin: 0 auto;
+    }
+  }
+
+  &.part3-content1 {
+    @include bg-cov("../images/pages/part3-content1/d-bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part3-content1/m-bg.jpg");
+    }
+    max-width: rem(1920);
+    margin: 0 auto;
+  }
+
+  &.part3-content2 {
+    @include bg-cov("../images/pages/part3-content2/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part3-content2/bg-m.jpg");
+    }
+    max-width: rem(1920);
+    margin: 0 auto;
+  }
+
+  &.part3-content3 {
+    @include bg-cov("../images/pages/part3-content3/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part3-content3/bg-m.jpg");
+    }
+  }
+
+  &.part3-content4 {
+    @include bg-cov("../images/pages/part3-content4/bg.jpg");
+  }
+
+  &.part3-game2,
+  &.part3-game2-result {
+    @include bg-cov("../images/pages/part3-game2/bg.jpg");
+  }
+
+  &.part3-game3 {
+    @include bg-cov("../images/pages/part3-game3/bg-d.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part3-game3/bg-mobile.png");
+    }
+  }
+
+  &.part3-game3-result {
+    @include bg-cov("../images/pages/part3-game3/bg-d.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part3-game3/bg-mobile.png");
+    }
+  }
+
+  &.part4-content1 {
+    @include bg-cov("../images/pages/part4-content1/d-bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part4-content1/m-bg.jpg");
+    }
+    max-width: rem(1920);
+    margin: 0 auto;
+  }
+
+  &.part4-content2,
+  &.part5-content2,
+  &.part6-game1-result,
+  &.part6-game2-result,
+  &.part6-game3-result,
+  &.part6-game4-result,
+  &.part6-game5-result,
+  &.part6-game6-result,
+  &.part6-game7-result,
+  &.part6-game8-result {
+    max-width: rem(1920);
+    margin: 0 auto;
+  }
+
+  &.part4-content3 {
+    @include bg-cov("../images/pages/part4-content3/Red.jpg");
+  }
+
+  &.part4-content4 {
+    @include bg-cov("../images/pages/part4-content4/bg.jpg");
+    @include for-mobile {
+      background-image: unset;
+      background-color: #810600;
+    }
+  }
+
+  &.part4-content6 {
+    @include bg-cov("../images/pages/part4-content6/Green.jpg");
+  }
+  &.part4-content7 {
+    @include bg-cov("../images/pages/part4-content7/bg.jpg");
+  }
+
+  &.part4-game1 {
+    @include bg-cov("../images/pages/part4-game1/bg-d.jpg");
+    @include for-desktop {
+      max-width: rem(1920);
+      margin: 0 auto;
+    }
+    @include for-mobile {
+      @include bg-cov("../images/pages/part4-game1/bg-m.jpg");
+    }
+  }
+
+  &.part5-content1 {
+    @include bg-cov("../images/pages/part5-content1/bg.jpg");
+
+    @include for-mobile {
+      @include bg-cov("../images/pages/part5-content1/bg-m.jpg");
+    }
+    max-width: rem(1920);
+    margin: 0 auto;
+  }
+
+  &.part5-content7 {
+    @include bg-cov("../images/pages/part5-content7/bg.jpg");
+  }
+
+  &.part5-game1 {
+    @include bg-cov("../images/pages/part5-game1/bg-d.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part5-game1/bg-m.jpg");
+    }
+    @include for-desktop {
+      max-width: rem(1920);
+      margin: 0 auto;
+    }
+  }
+
+  &.part5-game2,
+  &.part5-game2-result {
+    @include bg-cov("../images/pages/part5-game2/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part5-game2/bg.jpg");
+    }
+  }
+
+  &.part5-game3,
+  &.part5-game3-result {
+    @include bg-cov("../images/pages/part5-game3/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part5-game3/bg-m.jpg");
+    }
+  }
+  &.part5-content4 {
+    @include bg-cov("../images/pages/part5-content4/bg.jpg");
+  }
+  &.part5-game5,
+  &.part5-game5-result {
+    @include bg-cov("../images/pages/part5-game5/bg.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part5-game5/bg-m.png");
+    }
+  }
+
+  &.part6-content1 {
+    @include bg-cov("../images/pages/part1-content2/bg.jpg");
+  }
+
+  &.part6-game1-result {
+    @include bg-cov("../images/pages/part6-game/bg-1.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-1-m.jpg");
+    }
+  }
+
+  &.part6-game2-result {
+    @include bg-cov("../images/pages/part6-game/bg-2.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-2-m.jpg");
+    }
+  }
+
+  &.part6-game3-result {
+    @include bg-cov("../images/pages/part6-game/bg-3.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-3-m.jpg");
+    }
+  }
+
+  &.part6-game4-result {
+    @include bg-cov("../images/pages/part6-game/bg-4.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-4-m.jpg");
+    }
+  }
+
+  &.part6-game5-result {
+    @include bg-cov("../images/pages/part6-game/bg-5.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-5-m.jpg");
+    }
+  }
+
+  &.part6-game6-result {
+    @include bg-cov("../images/pages/part6-game/bg-6.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-6-m.jpg");
+    }
+  }
+
+  &.part6-game7-result {
+    @include bg-cov("../images/pages/part6-game/bg-7.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-7-m.jpg");
+    }
+  }
+
+  &.part6-game8-result {
+    @include bg-cov("../images/pages/part6-game/bg-8.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/part6-game/bg-8-m.jpg");
+    }
+  }
+
+  &.result-page {
+    @include bg-cov("../images/pages/general/white.jpg");
+    @include for-mobile {
+      @include bg-cov("../images/pages/result-page/bg-m.png");
+    }
+  }
+
+  &.part2-content4,
+  &.part4-content4 {
+    @include for-desktop {
+      max-width: rem(1920);
+      margin: 0 auto;
+    }
+  }
+}

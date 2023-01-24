@@ -1,0 +1,41 @@
+{
+  // command case
+  "nivac locale translation": {
+    "prefix": "!key",
+    "body": [
+      " {",
+      "    \"key\": \"$1\",",
+      "    \"data\": {",
+      "      \"value\": \"$2\",",
+      "      \"validated\": true,",
+      "      \"comment\": \"\"",
+      "    }",
+      " },"
+    ],
+    "description": "nivac locale translation"
+  },
+
+  "nivac html localize": {
+    "prefix": "!lcz",
+    "body": ["<span lcz=\"$1\"></span>"],
+    "description": "nivac html localize"
+  },
+
+  "scss mobile media query": {
+    "prefix": "@include for-mobile;",
+    "body": ["@include for-mobile {", "  $1", "}"],
+    "description": "scss mobile media query"
+  },
+
+  "scss desktop media query": {
+    "prefix": "@include for-desktop;",
+    "body": ["@include for-desktop {", "  $1", "}"],
+    "description": "scss desktop media query"
+  },
+
+  "scss tablet media query": {
+    "prefix": "@include for-tablet;",
+    "body": ["@include for-tablet {", "  $1", "}"],
+    "description": "scss tablet media query"
+  }
+}
