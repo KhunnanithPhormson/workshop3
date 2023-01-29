@@ -1,76 +1,65 @@
 <div id="part2-game3" class="page" data-step="4" data-current="3" data-menu="1">
   <div class="scroll-inner">
     <div class="content-inner">
-      <div class="title"><span lcz="part2-game3-title"></span></div>
-      <div class="ins">
-        <span lcz="part2-game3-ins"></span>
+      <div class="text text--title">
+        USE TO MOST APPROPRIATE WORDS TO MAKE YOUR CLIENT TRAVEL WITH THÉ
+        YULONG.
       </div>
-      <div class="part2-game3-drag-drop">
-        <div class="mid m-style">
-          <img src="images/pages/part2-game3/bottle.png" alt="" />
-        </div>
-        <div class="part2-game3-drag-drop_inner">
-          <div class="left">
-            <div class="left_title">
-              <span lcz="black-tea"></span>
-            </div>
-            <div class="drop-zone">
-              <div class="drop drop-1" data-ans="left">
-                <div class="drop_inner"><span lcz="drag-drop-here"></span></div>
-              </div>
-              <div class="drop drop-2" data-ans="left">
-                <div class="drop_inner"><span lcz="drag-drop-here"></span></div>
-              </div>
-            </div>
+      <div class="text text--sub">
+        Associate the keywords to each ingredient.
+      </div>
+
+      <!-- TODO: -->
+      <div class="card-group">
+        <div class="drop-zone">
+          <div class="text">BLACK TEA</div>
+          <div class="dropbox" data-choice="1">
+            <div class="text text--drop">Drag&Drop here</div>
           </div>
-          <div class="mid d-style">
-            <img src="images/pages/part2-game3/bottle.png" alt="" />
-          </div>
-          <div class="line m-style"></div>
-          <div class="right">
-            <div class="right_title">
-              <span lcz="white-tea"></span>
-            </div>
-            <div class="drop-zone">
-              <div class="drop drop-3" data-ans="right">
-                <div class="drop_inner"><span lcz="drag-drop-here"></span></div>
-              </div>
-              <div class="drop drop-4" data-ans="right">
-                <div class="drop_inner"><span lcz="drag-drop-here"></span></div>
-              </div>
-            </div>
+          <div class="dropbox" data-choice="2">
+            <div class="text text--drop">Drag&Drop here</div>
           </div>
         </div>
-        <!-- Slider main container -->
-        <div class="swiper part2-game3-drag-drop">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-              <div class="drag" data-ans="left">
-                <div class="drag_inner"><span lcz="key-1"></span></div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="drag" data-ans="right">
-                <div class="drag_inner"><span lcz="key-2"></span></div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="drag" data-ans="right">
-                <div class="drag_inner"><span lcz="key-3"></span></div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="drag" data-ans="left">
-                <div class="drag_inner"><span lcz="key-4"></span></div>
-              </div>
+        <img src="images/pages/part2-game3/bottle.png" class="img" />
+        <div class="drop-zone">
+          <div class="text">GREEN TEA</div>
+          <div class="dropbox" data-choice="3">
+            <div class="text text--drop">Drag&Drop here</div>
+          </div>
+          <div class="dropbox" data-choice="4">
+            <div class="text text--drop">Drag&Drop here</div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div id="item1" class="box" data-choice="1">
+              <div class="text text--drag">POWERFUL</div>
             </div>
           </div>
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class="swiper-slide">
+            <div id="item2" class="box" data-choice="2">
+              <div class="text text--drag">SMOKED</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div id="item3" class="box" data-choice="3">
+              <div class="text text--drag">SUBTLE</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div id="item4" class="box" data-choice="4">
+              <div class="text text--drag">VIVACIOUS</div>
+            </div>
+          </div>
         </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="container" id="show">
+        <div class="text text--show">WELL DONE!</div>
+        <div class="text text--title">A tea note revealing a delicate contrast between light & shadow.</div>
       </div>
     </div>
   </div>

@@ -30,16 +30,16 @@ var isIE =
 
 var cookieLanguage;
 
-var sounds = {
-  background_music_1: new Audio("sounds/Sound_The_Yulong.m4a"),
-  background_music_2: new Audio("sounds/Sound_Pivoine_Suzhou.m4a"),
-  background_music_3: new Audio("sounds/Sound_Vetiver_D_Hiver.m4a"),
-  background_music_4: new Audio("sounds/Sound_Bois_D_Encens.m4a"),
-  background_music_5: new Audio("sounds/Sound_Rouge_Malachite.m4a"),
-  background_music_6: new Audio("sounds/Sound_Vert_Malachite.m4a"),
-  background_music_7: new Audio("sounds/Sound_Rose_D_Arabie.m4a"),
-  background_music_8: new Audio("sounds/Sound_Oud_Royal.m4a"),
-};
+// var sounds = {
+//   background_music_1: new Audio("sounds/Sound_The_Yulong.m4a"),
+//   background_music_2: new Audio("sounds/Sound_Pivoine_Suzhou.m4a"),
+//   background_music_3: new Audio("sounds/Sound_Vetiver_D_Hiver.m4a"),
+//   background_music_4: new Audio("sounds/Sound_Bois_D_Encens.m4a"),
+//   background_music_5: new Audio("sounds/Sound_Rouge_Malachite.m4a"),
+//   background_music_6: new Audio("sounds/Sound_Vert_Malachite.m4a"),
+//   background_music_7: new Audio("sounds/Sound_Rose_D_Arabie.m4a"),
+//   background_music_8: new Audio("sounds/Sound_Oud_Royal.m4a"),
+// };
 
 // sounds["background_music_1"].volume = 0.0;
 // sounds["background_music_2"].volume = 0.0;

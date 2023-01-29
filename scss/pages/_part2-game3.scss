@@ -1,2 +1,124 @@
 #part2-game3 {
+  // TODO: bem 1 group lst
+  .card-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    gap: rem(150);
+    padding: rem(100);
+  }
+
+  .container {
+    position: relative;
+    display: none;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+  }
+
+  // TODO: bem 2 image
+  .img {
+    position: relative;
+    width: rem(335);
+    height: rem(660);
+    align-self: center;
+  }
+
+  .text {
+    position: relative;
+    // color: rgb(255, 255, 255);
+    font-size: rem(48);
+    align-items: center;
+    align-self: center;
+
+    &--drop {
+      font-size: rem(24);
+    }
+
+    &--title {
+      padding-top: rem(30);
+      font-size: rem(30);
+      color: #fff;
+    }
+
+    &--sub {
+      font-size: rem(30);
+      color: #b4956c;
+    }
+
+    &--drag {
+      font-size: rem(30);
+      color: black;
+      align-self: center;
+    }
+
+    &--show {
+      font-size: rem(36);
+      color: #b4956c;
+    }
+  }
+
+  .drop-zone {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: rem(30);
+  }
+
+  .dropbox {
+    display: flex;
+    justify-content: center;
+    border-radius: rem(8);
+    background-color: #828282;
+    opacity: 0.6;
+    width: rem(302);
+    height: rem(83.05);
+  }
+
+  .box {
+    width: rem(302);
+    height: rem(84);
+    background-color: #b4956c;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    cursor: pointer;
+  }
+  // TODO: bem 3 swiper
+  .swiper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: rem(600);
+    height: fit-content;
+    overflow: visible;
+  }
+  .swiper-slide {
+    max-width: rem(600);
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .swiper-slide-active {
+    opacity: 1;
+  }
+
+  .swiper-button-prev {
+    position: absolute;
+    align-self: center;
+  }
+
+  .swiper-button-next {
+    position: absolute;
+    align-self: center;
+  }
+
+  .swiper-slide-visible {
+    display: block;
+  }
 }

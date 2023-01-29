@@ -34,11 +34,6 @@ function preloadImages(expression) {
 
     // main-page
     case "main-page":
-      $.preloadImages(
-        "images/pages/main-page/BG.jpg",
-        "images/pages/main-page/img.jpg",
-        "images/pages/main-page/Logo_gold.png"
-      );
       break;
 
     // part1-content1
@@ -231,7 +226,10 @@ function preloadImages(expression) {
 
     // part2-game6
     case "part2-game6":
-      $.preloadImages("images/pages/part2-game6/bg.jpg", "images/pages/part2-game6/item.png");
+      $.preloadImages(
+        "images/pages/part2-game6/bg.jpg",
+        "images/pages/part2-game6/item.png"
+      );
       break;
 
     // part2-game7
@@ -307,7 +305,10 @@ function preloadImages(expression) {
 
     // part3-game2
     case "part3-game2":
-      $.preloadImages("images/pages/part3-game2/bg.jpg", "images/pages/part3-game2/item.png");
+      $.preloadImages(
+        "images/pages/part3-game2/bg.jpg",
+        "images/pages/part3-game2/item.png"
+      );
       break;
 
     // part3-game3
@@ -402,7 +403,10 @@ function preloadImages(expression) {
 
     // part4-game2
     case "part4-game2":
-      $.preloadImages("images/pages/part4-game2/bg.jpg", "images/pages/part4-game2/item.png");
+      $.preloadImages(
+        "images/pages/part4-game2/bg.jpg",
+        "images/pages/part4-game2/item.png"
+      );
       break;
 
     // part4-game3
@@ -420,7 +424,10 @@ function preloadImages(expression) {
 
     // part4-game4
     case "part4-game4":
-      $.preloadImages("images/pages/part4-game4/bg.jpg", "images/pages/part4-game4/item.png");
+      $.preloadImages(
+        "images/pages/part4-game4/bg.jpg",
+        "images/pages/part4-game4/item.png"
+      );
       break;
 
     // part4-game5
@@ -438,7 +445,10 @@ function preloadImages(expression) {
 
     // part5-content1
     case "part5-content1":
-      $.preloadImages("images/pages/part5-content1/bg-m.jpg", "images/pages/part5-content1/bg.jpg");
+      $.preloadImages(
+        "images/pages/part5-content1/bg-m.jpg",
+        "images/pages/part5-content1/bg.jpg"
+      );
       break;
 
     // part5-content2
@@ -453,7 +463,10 @@ function preloadImages(expression) {
 
     // part5-content3
     case "part5-content3":
-      $.preloadImages("images/pages/part5-content3/bg.jpg", "images/pages/part5-content3/item.png");
+      $.preloadImages(
+        "images/pages/part5-content3/bg.jpg",
+        "images/pages/part5-content3/item.png"
+      );
       break;
 
     // part5-content4
@@ -469,7 +482,10 @@ function preloadImages(expression) {
 
     // part5-content6
     case "part5-content6":
-      $.preloadImages("images/pages/part5-content6/bg.jpg", "images/pages/part5-content6/item.png");
+      $.preloadImages(
+        "images/pages/part5-content6/bg.jpg",
+        "images/pages/part5-content6/item.png"
+      );
       break;
 
     // part5-content7
@@ -505,7 +521,10 @@ function preloadImages(expression) {
 
     // part5-game2
     case "part5-game2":
-      $.preloadImages("images/pages/part5-game2/bg.jpg", "images/pages/part5-game2/item.png");
+      $.preloadImages(
+        "images/pages/part5-game2/bg.jpg",
+        "images/pages/part5-game2/item.png"
+      );
       break;
 
     // part5-game3
@@ -539,7 +558,10 @@ function preloadImages(expression) {
 
     // part5-game4
     case "part5-game4":
-      $.preloadImages("images/pages/part5-game4/bg.jpg", "images/pages/part5-game4/item.png");
+      $.preloadImages(
+        "images/pages/part5-game4/bg.jpg",
+        "images/pages/part5-game4/item.png"
+      );
       break;
 
     // part5-game5
@@ -595,7 +617,10 @@ function preloadImages(expression) {
 
     // select-lang
     case "select-lang":
-      $.preloadImages("images/pages/select-lang/bg-m.jpg", "images/pages/select-lang/bg.jpg");
+      $.preloadImages(
+        "images/pages/select-lang/bg-m.jpg",
+        "images/pages/select-lang/bg.jpg"
+      );
       break;
 
     // welcome-pages

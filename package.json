@@ -48,5 +48,8 @@
     "gulp-wait": "^0.0.2",
     "sass": "^1.56.0",
     "shelljs": "^0.8.5"
+  },
+  "dependencies": {
+    "swiper": "^8.4.6"
   }
 }
